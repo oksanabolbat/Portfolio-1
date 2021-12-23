@@ -61,7 +61,7 @@ a {
     cursor: pointer;
 }
 body {
-    background: no-repeat url("../img/bg.png") #000;
+    background: no-repeat url("../img/bg.png") center 0 #000;
     color: #fff;
     font-family: "Inter", sans-serif;
 }
@@ -76,6 +76,12 @@ h2 {
     color: #bdae82;
     margin: 0 auto;
     background-color: #000;
+    text-align: center;
+}
+h3 {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
     text-align: center;
 }
 .wrapper {
@@ -107,13 +113,14 @@ h2 {
 .wrapper-hero {
     max-width: 500px;
     margin-top: 160px;
-    margin-left: 80px;
+    margin-left: 60px;
     margin-bottom: 330px;
 }
 .wrapper-hero p {
     font-size: 20px;
     line-height: 40px;
     width: 470px;
+    margin-top: 10px;
 }
 .hero-btn {
     width: 220px;
@@ -131,11 +138,33 @@ h2 {
 }
 .h2-wrapper {
     padding-top: 100px;
-    padding-bottom: 60px;
     width: 700px;
     margin: 0 auto;
     background: no-repeat url("../img/section-title-line.png") 0 139px;
 }
 .h2-skills {
     width: 152px;
+}
+.skill {
+    margin-top: 60px;
+    max-width: 320px;
+    padding: 100px 20px 8px 20px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 36px;
+}
+.skill-camera {
+    background: no-repeat url("../img/camera\ 1.png") center 0;
+}
+.skill-image {
+    background: no-repeat url("../img/image\ 1.png") center 0;
+}
+.skill-mic {
+    background: no-repeat url("../img/mic\ 1.png") center 0;
+}
+.skill-video {
+    background: no-repeat url("../img/video\ 1.png") center 0;
+}
+.skill p {
+    margin-top: 20px;
 }
